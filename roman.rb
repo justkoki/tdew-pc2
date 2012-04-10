@@ -5,8 +5,13 @@ class Roman
 	end
 	
 	def romano(letra)
-		if letra == 'I' then
-			return 1
+		case letra
+			when 'I'
+				return 1
+			when 'II'
+				return 2
+			when 'III'
+				return 3
 		end
 	end
 	
