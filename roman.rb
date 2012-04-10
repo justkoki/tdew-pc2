@@ -5,14 +5,8 @@ class Roman
 	end
 	
 	def romano(letra)
-		case letra
-			when 'I'
-				return 1
-			when 'II'
-				return 2
-			when 'III'
-				return 3
-		end
+		cantidad = letra.length
+		return cantidad
 	end
 	
 end
