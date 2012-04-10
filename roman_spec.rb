@@ -5,16 +5,16 @@ describe Roman do
 		@roman = Roman.new
 	end
 	
-	it "I en romano es 1" do
-		@roman.romano("I").should == 1
+	it "1 en romano es I" do
+		@roman.romano(1).should == "I"
 	end
 	
-	it "II en romano es 2" do
-		@roman.romano("II").should == 2
+	it "2 en romano es II" do
+		@roman.romano(2).should == "II"
 	end
 	
-	it "III en romano es 3" do
-		@roman.romano("III").should == 3
+	it "3 en romano es III" do
+		@roman.romano(3).should == "III"
 	end
 
 end
