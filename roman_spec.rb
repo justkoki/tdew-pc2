@@ -1,6 +1,6 @@
 require './roman.rb'
 describe Roman do
-
+	
 	before(:each) do
 		@roman = Roman.new
 	end
